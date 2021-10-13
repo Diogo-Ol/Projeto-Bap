@@ -24,6 +24,9 @@ const navMenu = document.querySelector('[data-menu-animacao]')
 const closeMenu = document.getElementById('closeMenu')
 closeMenu.addEventListener('click', Close)
 
+const showMenu = document.getElementById('showMenu')
+showMenu.addEventListener('click', Show)
+
 new Carousel(anterior, proximo, listaProdutos)
 new CarouselServicos(anteriorServicos, proximoServicos, listaServicos)
 new Show(offButton1, offButton2, offButton3,mainMenu, navMenu)
