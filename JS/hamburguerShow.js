@@ -22,16 +22,7 @@ export function Close(){
     offButton3.style.display = 'flex' 
 }
 
-const mainMenu = document.querySelector('[data-conteudo]')
 
-const offButton1 = document.querySelector('[data-mudar-icone1]')
-const offButton2 = document.querySelector('[data-mudar-icone2]')
-const offButton3 = document.querySelector('[data-mudar-icone3]')
-
-const navMenu = document.querySelector('[data-menu-animacao]')
-
-const closeMenu = document.getElementById('closeMenu')
-closeMenu.addEventListener('click', Close)
 
 
 
