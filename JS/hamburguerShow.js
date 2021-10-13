@@ -1,4 +1,4 @@
-function Show(){
+export function Show(){
     mainMenu.style.display = 'flex';
     
 
@@ -11,7 +11,7 @@ function Show(){
     navMenu.style.visibility = 'visible'
 }
 
-function Close(){
+export function Close(){
     mainMenu.style.display = 'none'
     
     navMenu.style.visibility = 'hidden'
