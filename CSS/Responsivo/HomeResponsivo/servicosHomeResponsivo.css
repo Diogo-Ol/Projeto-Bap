@@ -58,7 +58,7 @@
 
 @media only screen 
 and (min-device-width: 768px) 
-and (max-device-width: 1024px){
+and (max-device-width: 1300px){
     .servicos{
         height: auto;
     }
@@ -85,8 +85,8 @@ and (max-device-width: 1024px){
         width: 80vw;
     }
     .imagem__carrousel___servico{
-        width: 60vw;
-        height: 45vh;
+        width: 35rem;
+        height: 70vh;
         margin-left: 1.625rem;
         
     }
