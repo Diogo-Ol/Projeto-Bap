@@ -107,7 +107,7 @@
     background-color: transparent;
     border: none;
 
-    background-image: url(../Assets/seta-esquerda.png);
+    background-image: url(/Assets/seta-esquerda.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -118,7 +118,7 @@
     background-color: transparent;
     border: none;
 
-    background-image: url(../Assets/seta-direita.png);
+    background-image: url(/Assets/seta-direita.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -127,7 +127,7 @@
 
 .carrousel__button--anterior:hover{
     background-color: var(--primary);
-    background-image: url(../Assets/seta-esquerda-hover.png);
+    background-image: url(/Assets/seta-esquerda-hover.png);
     
     transform: translateX(-.5rem);
 
@@ -136,7 +136,7 @@
 
 .carrousel__button--proximo:hover{
     background-color: var(--primary);
-    background-image: url(../Assets/seta-direita-hover.png);
+    background-image: url(/Assets/seta-direita-hover.png);
 
     transform: translateX(.5rem);
 

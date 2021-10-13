@@ -1,5 +1,4 @@
-export class Show {
-    constructor(offButton1, offButton2, offButton3,mainMenu, navMenu){
+function Show() {
         mainMenu.style.display = 'flex';
     
         offButton1.style.display = 'none'
@@ -8,11 +7,10 @@ export class Show {
     
         navMenu.classList.toggle("active")
         navMenu.style.visibility = 'visible'
-    }
+    
 }
 
-export class Close {
-    constructor(offButton1, offButton2, offButton3,mainMenu, navMenu){
+function Close() {
         mainMenu.style.display = 'none'
     
         navMenu.style.visibility = 'hidden'
@@ -21,9 +19,19 @@ export class Close {
         offButton1.style.display = 'flex'
         offButton2.style.display = 'flex'
         offButton3.style.display = 'flex' 
-    }
 
 }
+
+const mainMenu = document.querySelector('[data-conteudo]')
+
+const offButton1 = document.querySelector('[data-mudar-icone1]')
+const offButton2 = document.querySelector('[data-mudar-icone2]')
+const offButton3 = document.querySelector('[data-mudar-icone3]')
+
+const navMenu = document.querySelector('[data-menu-animacao]')
+
+const closeMenu = document.getElementById('closeMenu')
+closeMenu.addEventListener('click', Close)
 
 
 
