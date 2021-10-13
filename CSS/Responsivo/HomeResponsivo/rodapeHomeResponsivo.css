@@ -1,0 +1,109 @@
+@media (max-width:768px){
+    .rodape{
+        width: auto;
+    }
+    .container__rodape{
+        flex-direction: column;
+        align-content: space-between;
+        height: auto;
+        width: auto;
+
+        padding-top: 3.563rem;
+        margin-left: 2rem;
+        margin-right: 4.688rem;
+    }
+
+    .logos__item{
+        font-size: 1rem;
+    }
+
+    .descricao__redes___sociais{
+        margin-bottom: 0%;
+    }
+    .redes__logos{
+        margin-top: 1.875rem;
+        margin-bottom: 5.625rem;
+    }
+
+    .rodape__itens{
+        margin-bottom: 5.625rem;
+    }
+    
+    .copiryght{
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+    .contato__rodape{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato__telefone{
+        margin: 1.25rem 0;
+    }
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .rodape{
+        width: auto;
+    }
+    .container__rodape{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        width: auto;
+
+        padding-top: 3.563rem;
+        margin-left: 2rem;
+        margin-right: 4.688rem;
+    }
+    .titulo__rodape___itens{
+        font-size: 1.2rem;
+    }
+    .logos__item{
+        font-size: 1rem;
+    }
+
+    .descricao__redes___sociais{
+        margin-bottom: 0%;
+        font-size: 1rem;
+    }
+    .redes__logos{
+        margin-top: 1.875rem;
+        margin-bottom: 5.625rem;
+        justify-content: space-between;
+        width: 40vw;
+
+        font-size: 1.2rem;
+    }
+
+    .redesSociais{
+        align-items: center;
+        width: 40vw;
+    }
+
+    .rodape__itens{
+        margin-bottom: 5.625rem;
+        width: 60vw;
+        font-size: 1.2rem;
+    }
+    
+    .copiryght{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 2rem;
+    }
+    .contato__rodape{
+        display: flex;
+        flex-direction: column;
+    }
+    .copiryght__text{
+        text-align: center;
+    }
+    .contato__telefone{
+        margin: 1.25rem 0;
+    }
+}

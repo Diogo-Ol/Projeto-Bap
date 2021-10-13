@@ -1,0 +1,141 @@
+@media (min-width:0px){
+.container__carrousel__servicos{
+    width: 90rem;
+    position: relative;
+    overflow: hidden;
+}
+.carrousel__item___servicos{
+    display: flex;
+    flex-direction: row;
+
+    width: 2600px;
+
+    padding-right: 6.5rem;
+}
+
+.container__servico{
+    display: flex;
+    flex-direction: column;
+    width: 90rem;
+    height: 31.306rem;
+    
+}
+
+.imagem__carrousel___servico{
+    width: 47.75rem;
+    height: 45.75rem;
+    
+    margin-right: 4.25rem
+}
+
+.container__imagem{
+    margin-right: 4.25rem;
+}
+
+.number--carrousel{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 4.375rem;
+
+    color: #BCBCBC;
+}
+
+.titulo__carrousel___servico{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 3rem;
+
+    width: 24rem;
+    height: 180px;
+
+    color: #333333;
+}
+
+.descricao__carrousel___servico{
+    font-family: var(--roboto);
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    color: #666666;
+
+    width: 31.5rem;
+
+}
+
+.container__buttons__servicos{
+    width: 31.5rem;
+}
+
+.carrousel__button___servicos{
+    width: 4.3rem;
+    height: 4.5rem;
+}
+
+.buttons__servicos{
+    display: flex;
+    flex-direction: column;
+}
+
+.button__verMais{
+    background-color: var(--primary-pure);
+    color: #FFFFFF;
+
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: var(--roboto);
+        
+    margin-bottom: 6.625rem;
+    padding: 1.2rem 3rem;
+    width: 10rem;
+}
+.button--carrousel__servico{  
+    position: absolute;
+    width: 15rem;
+    height: 8rem;
+   
+    bottom: 2.188rem;
+    left: 75rem;
+    right: 0%;
+}
+
+.carrousel__button--anterior___servicos{
+    background-color: transparent;
+    border: none;
+
+    background-image: url(/Assets/seta-esquerda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: all .4s ease-in-out;
+}
+
+.carrousel__button--proximo___servicos{
+    background-color: transparent;
+    border: none;
+
+    background-image: url(/Assets/seta-direita.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: all .4s ease-in-out;
+}
+
+.carrousel__button--anterior___servicos:hover{
+    background-color: var(--primary);
+    background-image: url(/Assets/seta-esquerda-hover.png);
+    
+    transform: translateX(-.5rem);
+
+    transition: all .4s ease-in-out;
+}
+
+.carrousel__button--proximo___servicos:hover{
+    background-color: var(--primary);
+    background-image: url(/Assets/seta-direita-hover.png);
+
+    transform: translateX(.5rem);
+
+    transition: all .4s ease-in-out;
+}
+
+}

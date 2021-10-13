@@ -1,0 +1,98 @@
+@media (min-width:0px){
+.banner{
+    background: linear-gradient(90deg, #1E1E56 -10.88%, #13131C 103.71%);
+    color: #FFFFFF;
+
+    height: 51.875rem;
+    padding: 0 0 0 13rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nome-servico{
+    font-family: var(--roboto);
+    font-weight:500;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+}
+
+.titulo-servico{
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 100%;
+}
+
+.descricao-servico{
+    font-family: var(--roboto);
+    font-weight:400;
+    margin-bottom: 3rem;
+}
+.saiba-mais{
+    background-color: var(--primary-pure);
+    border: none;
+
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: var(--roboto);
+    
+    padding: 1.2rem 3rem;
+
+    transition: all .2s ease-in-out;
+}
+
+.saiba-mais:hover{
+    background-color: #FFFFFF;
+    color: var(--primary-pure);
+
+    transition: all .3s ease-in-out;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    transition: .1s;
+}
+.redes__item:hover{
+    color: var(--primary-pure);
+    transition: .1s;
+}
+
+.plataformas-contato{
+    display: flex;
+    justify-content:space-between;
+
+    width: 17rem;
+
+    font-family: var(--roboto);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+
+    margin: 8rem 0 0 0;
+}
+
+.plataformas-contato a{
+    color: #FFFFFF;
+    text-decoration:none;
+    list-style: none;
+}
+
+.parceiros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    margin: 4.25rem 0;
+
+    padding: 0 19rem;
+}
+
+.logo__parceiros{
+    width: 9.5rem;
+    height: 8.5rem;
+}
+}

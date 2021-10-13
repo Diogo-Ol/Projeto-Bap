@@ -1,0 +1,130 @@
+@media (max-width:768px){
+    .nossos-produtos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titulo__produtos{
+        width: 15rem;
+        height: 7.5rem;
+    
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .container__buttons{
+        margin:0;
+    }
+    
+    .imagem__carrousel___item{
+        width: 19.5rem;
+        height: 27.5rem;
+    }
+    
+    .titulo__carrousel___item{
+        font-size: 1.5rem;
+    }
+    
+    .descricao__carrousel___item{
+        font-size: 0.875rem;
+    }
+    
+    .carrousel__item___produtos{
+        margin-right: .5rem;
+        margin-left: 0;
+    }
+    
+    .container__titulo___nosso-produtos{
+        margin-right: 2rem;
+    }
+    .container__carrousel{
+        width: auto;
+        margin-left: 2rem;
+    }
+    .explorar{
+        display: none;
+    }
+    
+    .carrousel__button{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    .button--carrousel{
+        margin-left: .5rem;
+    }
+    
+    .carrousel__button--anterior, 
+    .carrousel__button--proximo, 
+    .carrousel__button--anterior:hover, 
+    .carrousel__button--proximo:hover{
+        background-size: .8rem .8rem;
+    } 
+}
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px){
+    .nossos-produtos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titulo__produtos{
+        width: 15rem;
+        height: 7.5rem;
+    
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .container__buttons{
+        margin:0;
+        padding-left: 0%;
+    }
+    
+    .imagem__carrousel___item{
+        width: 20rem;
+        height: 27.5rem;
+    }
+    
+    .titulo__carrousel___item{
+        font-size: 1.5rem;
+    }
+    
+    .descricao__carrousel___item{
+        font-size: 0.875rem;
+    }
+    
+    .carrousel__item___produtos{
+        margin-right: 1rem;
+        margin-left: 0;
+    }
+    
+    .container__titulo___nosso-produtos{
+        margin-right: 2rem;
+    }
+    .container__carrousel{
+        width: 110vw;
+        margin-left: 2rem;
+    }
+    .explorar{
+        display: none;
+    }
+    
+    .carrousel__button{
+        width: 3rem;
+        height: 3rem;
+        margin-right: 2.5rem;
+    }
+    .button--carrousel{
+        margin-left: .5rem;
+        width: 60vw;
+    }
+    
+    .carrousel__button--anterior, 
+    .carrousel__button--proximo, 
+    .carrousel__button--anterior:hover, 
+    .carrousel__button--proximo:hover{
+        background-size: .8rem .8rem;
+    } 
+}

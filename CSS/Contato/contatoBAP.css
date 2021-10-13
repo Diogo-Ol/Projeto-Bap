@@ -1,0 +1,164 @@
+.button-contato__contato{
+    display: none;
+}
+.conteudo__contato{
+    margin-bottom: 8.625rem;
+}
+.container__contato{
+    background: linear-gradient(90deg, #1E1E56 -10.88%, #13131C 103.71%);
+    background-size: 100vw 51.875rem;
+    background-repeat: no-repeat;
+    height: 69.25rem;
+    padding: 0; 
+    display: flex;
+    flex-direction: row;
+}
+.banner__contato{
+    height: 51.875rem;
+    margin-top: 0;
+}
+
+.conteudo__banner___contato{
+    padding-right: 4rem;
+    margin-left: 4rem;
+    margin-right: 6.5rem;
+    width: 27.1875rem;
+}
+
+.titulo__contato{
+    font-family: var(--poppins);
+    font-weight: 600;
+
+    font-size:2.625rem;
+    padding-bottom: 1.3125rem;
+    color: #FFFFFF;
+}
+.descricao__contato{
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+
+    color: #E9E9E9;
+}
+
+.descricao__texto{
+    margin-bottom: 2rem;
+}
+
+.contato__form{
+   background-color: #FFFFFF;
+   border: 0.0625rem solid #EEEEEE;
+
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   padding: 2.5rem 3.75rem;
+
+   height: 64.4375rem;
+   width: 45.625rem;
+   
+   margin-top: 6.75rem;
+   margin-right: 6.8125rem;
+}
+
+.titulo__form{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 3rem;
+
+    color: #363940;
+
+    margin-bottom: 1.25rem;
+}
+
+.sub__form{
+    font-family: var(--roboto);
+    font-weight: 400;
+
+    color: #666666;
+
+    margin-bottom: 1.875rem;
+}
+
+.form__area{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1.875rem;
+}
+
+.form__area__dupla{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.titulo__label{
+    font-family: var(--poppins);
+    font-weight: 700;
+
+    color: #333333;
+
+    margin-bottom: 1rem;
+}
+
+.input__form{
+    border: 0.0625rem solid #ECECEC;
+    border-radius: .25rem;
+
+    font-family: var(--poppins);
+    font-weight: 400;
+    
+    padding:1rem;
+
+    color: #999999;
+    background-color: #FBFBFB;
+
+    resize: none;
+}
+.input__form__text{
+    border: 0.0625rem solid #ECECEC;
+    border-radius: .25rem;
+
+    font-family: var(--poppins);
+    font-weight: 400;
+
+    width: 38.125rem;
+    height: 8.75rem;;
+    
+    padding:1rem;
+
+    color: #999999;
+    background-color: #FBFBFB;
+
+    resize: none;
+}
+.input__form__dupla{
+    border: 0.0625rem solid #ECECEC;
+    border-radius: .25rem;
+
+    font-family: var(--poppins);
+    font-weight: 400;
+
+    width: 18.375rem;
+    
+    padding:1rem;
+
+    color: #999999;
+    background-color: #FBFBFB;
+}
+.botao__enviar{
+    font-family: var(--roboto);
+    font-weight: 500;
+
+    width: 8.75rem;
+
+    padding: 1rem 3.15625rem;
+
+    background-color: var(--primary-pure);
+    border: none;
+
+    color: #FFFFFF;
+}

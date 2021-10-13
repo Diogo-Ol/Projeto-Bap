@@ -1,0 +1,138 @@
+@media (min-width:0px){
+
+.container__rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    height: 26.25rem;
+
+    padding-top: 2.75rem;
+}
+.logo__rodape{
+    width: 10rem;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao__redes___sociais{
+    font-family: var(--roboto);
+    font-weight: 400;
+    line-height: 1.5rem;
+    
+    width: 17rem;
+    margin-top: 2rem;
+
+    color: #666666;
+}
+.redes__logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: var(--roboto);
+    font-weight: 700;
+    color: var(--primary);
+
+    margin-top: 2rem;
+}
+
+.logos__item{
+    font-family: var(--roboto);
+    font-weight: 700;
+    color: var(--primary);
+    transition: .1s;
+}
+
+.logos__item:hover{
+    color: var(--primary-pure);
+    transition: .1s;
+}
+
+.rodape__itens{
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+}
+
+.lista__rodape___itens{
+    display: flex;
+    flex-direction: column;
+}
+.titulo__rodape___itens{
+    font-family: var(--roboto);
+    font-weight: 700;
+    color: var(--primary);
+
+    font-size: 1rem;
+
+    margin-bottom: 2rem;
+}
+.item__lista___itens{
+    font-family: var(--roboto);
+    font-weight: 500;
+    line-height: 1.5rem;
+    
+    color: #666666;
+
+    margin-bottom: .9rem;
+}
+
+.item__lista___itens:hover{ 
+    color: var(--primary);
+    transition: all .1s;
+}
+
+.copiryght{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+
+    background-image: url(/Assets/Divider.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-position-y: top;
+
+
+    padding: 1.813rem 6.5rem;
+}
+
+.copiryght__text{
+    font-family: var(--roboto);
+    font-weight: 400;
+    width: 29.875rem;
+
+    color: #666666;
+}
+
+.contato__email{
+    font-family: var(--roboto);
+    font-weight: 500;
+    width: 14.4rem;
+
+    color: var(--primary);
+    background-image: url(/Assets/ico-mail.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 2.5rem;
+
+    margin-right: 4.6rem;
+}
+
+.contato__telefone{
+    font-family: var(--roboto);
+    font-weight: 500;
+    width: 14.4rem;
+
+    color: var(--primary);
+    background-image: url(/Assets/ico-tel.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 2.5rem;
+}
+
+}

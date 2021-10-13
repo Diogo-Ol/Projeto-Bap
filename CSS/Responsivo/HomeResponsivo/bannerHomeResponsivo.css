@@ -1,0 +1,83 @@
+@media (max-width:768px){
+.banner{
+    width: auto;
+    padding: 0 1.25rem;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+
+    border: none;
+    
+}
+.nome-servico .descricao-servico{
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.titulo-servico {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.parceiros{
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+}
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .banner{
+        width: auto;
+        padding: 0 1.25rem;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+    
+        border: none;
+        
+    }
+    .nome-servico .descricao-servico{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .titulo-servico {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .parceiros{
+        flex-direction: row;
+        justify-content:space-evenly;
+        padding: 0;
+        margin-bottom: 0;
+    
+    }
+}
+
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1260px) {
+    .banner__sobre{
+        margin-right: .2rem;
+        width: 45vw;
+    }
+    .banner__imagem{
+        display: flex;
+        align-items: center;
+    }
+    .imagem__item{
+        width: 25vw;
+    }
+
+}
+
+

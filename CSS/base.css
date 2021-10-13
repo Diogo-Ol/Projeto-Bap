@@ -1,0 +1,18 @@
+:root{
+    --poppins:'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    
+    --primary-pure: #EC3C2E;
+    --primary:  #1E1E56;
+}
+body a{
+    color: #FFFFFF;
+}
+
+body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}

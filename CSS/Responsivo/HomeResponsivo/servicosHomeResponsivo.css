@@ -1,0 +1,125 @@
+@media (max-width:768px){
+    .servicos{
+        height: auto;
+    }
+    .carrousel__item___servicos{
+        flex-direction: column-reverse;
+    }
+    
+    .servico__info{
+        margin-left: 1.625rem;
+    }
+    .container__servico{
+        height: auto;
+        margin-bottom: 1rem;
+    
+    }
+    .number--carrousel{
+        margin-bottom: 2.25rem;
+        margin-top: 0;
+    }
+    .descricao__carrousel___servico{
+        width: 19.063rem;
+    }
+    .container__imagem{
+        width: 21.563rem;
+    }
+    .imagem__carrousel___servico{
+        width: 21.563rem;
+        height: 21.563rem;
+    }
+    
+    .button__verMais{
+        display: none;
+    }
+    
+    .button--carrousel__servico{    
+        bottom:0;
+        top: 1rem;
+        left: 13rem;
+        right: 0%;
+    }
+    
+    .carrousel__button___servicos{
+        width: 2.5rem;
+        height: 2.5rem;
+    
+        margin-right: 2.5rem;
+    }
+    
+    .carrousel__button--anterior___servicos, 
+    .carrousel__button--proximo___servicos, 
+    .carrousel__button--anterior___servicos:hover, 
+    .carrousel__button--proximo___servicos:hover{
+        background-size: .8rem .8rem;
+    } 
+    
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px){
+    .servicos{
+        height: auto;
+    }
+    .carrousel__item___servicos{
+        flex-direction: column-reverse;
+    }
+    
+    .servico__info{
+        margin-left: 1.625rem;
+    }
+    .container__servico{
+        height: auto;
+        margin-bottom: 1rem;
+    
+    }
+    .number--carrousel{
+        margin-bottom: 2.25rem;
+        margin-top: 0;
+    }
+    .descricao__carrousel___servico{
+        width: 80vw;
+    }
+    .container__imagem{
+        width: 80vw;
+    }
+    .imagem__carrousel___servico{
+        width: 60vw;
+        height: 45vh;
+        margin-left: 1.625rem;
+        
+    }
+    
+    .button__verMais{
+        display: none;
+    }
+    
+    .button--carrousel__servico{    
+        bottom:0;
+        top: 1rem;
+        left: 70vw;
+        right: 0%;
+
+        width: 60vw;
+    }
+    
+    .carrousel__button___servicos{
+        width: 3rem;
+        height: 3rem;
+    
+        margin-right: 2.5rem;
+    }
+
+    .carrousel__button--proximo___servicos{
+        margin-right: 0%;
+    }
+    
+    .carrousel__button--anterior___servicos, 
+    .carrousel__button--proximo___servicos, 
+    .carrousel__button--anterior___servicos:hover, 
+    .carrousel__button--proximo___servicos:hover{
+        background-size: .8rem .8rem;
+    } 
+    
+}

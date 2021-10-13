@@ -1,0 +1,97 @@
+.container__sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background: linear-gradient(90deg, #1E1E56 -10.88%, #13131C 103.71%);
+}
+
+.banner__sobre{
+    width: 32.8rem;
+
+    margin-right: 6.4375rem;
+    padding: 9.9375rem 0;
+}
+
+.titulo__sobre{
+    font-family: var(--poppins);
+    font-weight: 600;
+
+    font-size:2.625rem;
+    padding-bottom: 1.3125rem;
+    color: #FFFFFF;
+
+    background-image: url(/Assets/Line\ 2.svg);
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+}
+
+.sub__sobre{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+    margin-bottom: 3.75rem;
+}
+
+.descricao__sobre{
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+
+    color: #E9E9E9;
+}
+
+.descricao__texto{
+    margin-bottom: 2rem;
+}
+
+.buttons__sobre{
+    display: flex;
+    align-items: center;
+}
+
+.buttons__sobre__mobile{
+    display: none;
+}
+
+.botao__contato___sobre{
+    background-color: #FFFFFF;
+    color: var(--primary);
+    border: none;
+    
+    font-weight: 600;
+    font-family: var(--roboto);
+    
+    
+    padding: 1.2rem 3rem;
+    margin-right: 2rem;
+
+    transition: all .2s;
+}
+
+.botao__servicos___sobre{
+    border: .1rem solid var(--primary-pure);
+    padding: 1.2rem 1.4rem;
+
+    font-weight: 500;
+    font-family: var(--roboto);
+
+    transition: all .3s;
+}
+
+.banner__imagem{
+    padding-top: 15.625rem;
+    padding-bottom:  9.9375rem;
+}
+
+.imagem__item{
+    margin-right: 1rem;
+    height: 26.5rem;
+}
+
+
+
+

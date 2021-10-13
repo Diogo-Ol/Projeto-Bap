@@ -1,0 +1,155 @@
+@media (min-width:0px){
+.nossos-produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 869px;
+
+    
+}
+.container__titulo___nosso-produtos{
+    width: 15rem;
+    margin-right: 5rem;
+}
+.titulo__produtos{
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 3rem;
+
+    margin: 5rem 0 5rem 5rem;
+
+    color: #333333;
+
+}
+
+
+.container__carrousel{
+    width: 70rem;
+
+    overflow: hidden;
+    
+}
+.carrousel{
+    display: flex;
+    flex-direction: row;
+    transition: all .5s;
+}
+.carrousel__item___produtos{
+    margin-left: 2rem;
+}
+.titulo__carrousel___item{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 2rem;
+
+    color: #333333;
+}
+
+.imagem__carrousel___item{
+    width: 25rem;
+    height: 32rem;
+}
+
+.descricao__carrousel___item{
+    font-family: var(--roboto);
+    font-weight: 500;
+    color: #999999;
+}
+
+.explorar{
+    width: 15rem;
+    margin-right: calc(38rem - (5rem - 1.6rem));
+}
+.container__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 6rem;
+    width: 70rem;
+    padding-left: 2rem;
+
+}
+.button__explorar{
+    background-color: var(--primary-pure);
+    border: .1rem solid var(--primary-pure);
+    color: #FFFFFF;
+
+    width: 10rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: var(--roboto);
+    
+    padding: 1.2rem 1.5rem;
+
+    transition: all .3s ease-in-out;
+}
+
+.button__explorar:hover{
+    transition: all .2s ease-in-out;
+    
+    background-color: #FFFFFF;
+    color: var(--primary-pure);
+
+    border: .1rem solid var(--primary-pure);
+    border-right: .1rem solid var(--primary-pure);
+}
+.button--carrousel{
+    justify-self: center;
+    margin-right: 3rem;
+}
+.carrousel__button{
+    width: 4.3rem;
+    height: 4.5rem;
+}
+
+.carrousel__button--anterior{
+    background-color: transparent;
+    border: none;
+
+    background-image: url(/Assets/seta-esquerda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: all .4s ease-in-out;
+}
+
+.carrousel__button--proximo{
+    background-color: transparent;
+    border: none;
+
+    background-image: url(/Assets/seta-direita.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: all .4s ease-in-out;
+}
+
+.carrousel__button--anterior:hover{
+    background-color: var(--primary);
+    background-image: url(/Assets/seta-esquerda-hover.png);
+    
+    transform: translateX(-.5rem);
+
+    transition: all .4s ease-in-out;
+}
+
+.carrousel__button--proximo:hover{
+    background-color: var(--primary);
+    background-image: url(/Assets/seta-direita-hover.png);
+
+    transform: translateX(.5rem);
+
+    transition: all .4s ease-in-out;
+}
+}
+
+@media (min-width:1700px){
+    .container__titulo___nosso-produtos{
+        width: 30vw;
+    }
+
+    .container__carrousel{
+        width: 75rem;
+    }
+}

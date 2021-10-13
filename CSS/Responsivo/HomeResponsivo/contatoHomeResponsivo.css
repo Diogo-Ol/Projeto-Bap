@@ -1,0 +1,103 @@
+@media (max-width:768px){
+    .contato{
+        height: 48.375rem;
+        width: auto;
+    }
+    .container__contato{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 4.125rem;
+    }
+
+    .conteudo_contato{
+        width: auto;
+    }
+
+    .titulo__contato{
+        width: auto;
+        font-size: 2rem;
+        margin-bottom: 8.5rem;
+    }
+
+    .descricao__contato{
+        width: auto;
+        font-size: 1.125rem;
+        
+        margin-bottom: 8.125rem;
+        margin-left: 1.938rem;
+        margin-right: 1.938rem;
+    }
+
+    .button__contato{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao__contato{
+        margin-right: 0%;
+        margin-bottom: 1.27rem;
+        padding: 1rem;
+        width: 19.5rem;
+
+        font-size: 0.875rem;
+    }
+
+    .botao__servicos{
+        font-size: 0.875rem;
+        padding: 1rem;
+    }
+
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px){
+    .contato{
+        height: 36.5rem;
+        width: auto;
+    }
+    .container__contato{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 4.125rem;
+    }
+
+    .conteudo_contato{
+        width: auto;
+    }
+
+    .titulo__contato{
+        width: auto;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .descricao__contato{
+        width: auto;
+        font-size: 1.125rem;
+        
+        margin-bottom: 5.125rem;
+        margin-left: 1.938rem;
+        margin-right: 1.938rem;
+    }
+
+    .button__contato{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao__contato{
+        margin-right: 0%;
+        margin-bottom: 1.27rem;
+        padding: 1rem;
+        width: 19.5rem;
+
+        font-size: 0.875rem;
+    }
+
+    .botao__servicos{
+        font-size: 0.875rem;
+        padding: 1rem;
+    }
+
+}

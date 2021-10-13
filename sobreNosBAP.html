@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+        <link href="./CSS/Responsivo/homeResponsivo.css" rel="stylesheet">
+        <link href="./CSS/Home/cabecalhoHome.css" rel="stylesheet">
+        <link href="./CSS/Home/bannerHome.css" rel="stylesheet">
+        <link href="./CSS/Home/rodapeHome.css" rel="stylesheet">
+        <link href="./CSS/Sobre Nós/bannerSobreNos.css" rel="stylesheet">
+        <link href="./CSS/Responsivo/HomeResponsivo/cabecalhoHomeResponsivo.css" rel="stylesheet">
+        <link href="./CSS/Responsivo/HomeResponsivo/bannerHomeResponsivo.css" rel="stylesheet">
+        <link href="./CSS/Responsivo/HomeResponsivo/rodapeHomeResponsivo.css" rel="stylesheet">
+        <link href="./CSS/Responsivo/HomeResponsivo/contatoHomeResponsivo.css" rel="stylesheet">
+        <link href="./CSS/Responsivo/sobreNosResponsivo.css" rel="stylesheet">
+        <link href="./CSS/base.css" rel="stylesheet">
+        <link href="./CSS/reset.css" rel="stylesheet">
+        <link href="./CSS/normalize.css" rel="stylesheet">
+        <title>Home | Sobre Nós</title>
+    </head>
+
+    <body>
+        <header>  
+            <section class="navegacao__desktop">
+                <img src="./Assets/logo.svg" alt="Logo da Bap" class="logo-bap">
+            <ul class="nav__bar">
+                    <a href="./homeBAP.html" class="nav__item ">
+                        <li class="nav__itens">Home</li>
+                    </a>
+                    <a href="./servicos" class="nav__item">
+                        <li class="nav__itens">Serviços</li>
+                    </a>
+                    <a href="./sobreNosBap.html" class="nav__item">
+                        <li class="nav__itens ativo">Sobre nós</li>
+                    </a>
+                <div class="dropdown">
+                    <button class="drop-button">
+                      <p class="drop-text">Produtos</p>
+                      <img src="./Assets/ico-nav-seta.png" alt="Menu de Produtos" class="drop-ico">
+                        <div class="dropdown-content">
+                          <a href="#" class="content-text">Touchies</a>
+                          <a href="#" class="content-text">CFTV</a>
+                          <a href="#" class="content-text">Monitoramento 
+                            de temperatura corporal</a>
+                          <a href="#" class="content-text">Sistema de detecção 
+                            de alarme de incêndio</a>
+                          <a href="#" class="content-text">Reconhecimento facial</a>
+                          <a href="#" class="content-text">Solução de controle de acesso</a>
+                        </div>
+                      </div>
+                    </button>                   
+                </div>
+            </ul>
+
+            <a href="./contatoBAP.html" class="button-contato">Fale com a gente</a>
+            </section>
+
+            <section class="navegacao__mobile">
+                <img src="./Assets/logo.svg" alt="Logo da Bap" class="logo-bap">
+
+                <div class="menu__hamburguer">
+                    <button class="navMenu" data-menu-animacao id="closeMenu">
+                            <img src="./Assets/menu__hamburguer.png" alt="Menu de Produtos" class="hamburguer__ico ico-1">
+                            <img src="./Assets/menu__hamburguer.png" alt="Menu de Produtos" class="hamburguer__ico ico-2">
+                            <img src="./Assets/menu__hamburguer.png" alt="Menu de Produtos" class="hamburguer__ico ico-3">
+                        
+                    </button>
+                    <button class="hamburguer">
+                        <div class="container__ico" onclick ="Show()">
+                            <img src="./Assets/menu__hamburguer.png" alt="Menu de Produtos" class="hamburguer__ico ico-1" data-mudar-icone1>
+                            <img src="./Assets/menu__hamburguer.png" alt="Menu de Produtos" class="hamburguer__ico ico-2" data-mudar-icone2>
+                            <img src="./Assets/menu__hamburguer.png" alt="Menu de Produtos" class="hamburguer__ico ico-3" data-mudar-icone3>
+                        </div>
+                        
+                        <div class="hamburguer-content" data-conteudo id="content__ham">
+                          <a href="./homeBAP.html" class="content-ham" >Home</a>
+                          <a href="#" class="content-ham">Serviços</a>
+                          <a href="./sobreNosBAP.html" class="content-ham" id="ativo">Sobre Nós</a>
+                          <div class="dropdown">
+                                <a class="drop-button">
+                                    <div class="container__text">
+                                        <p class="drop-text" id="titulo__produtos__ham">Produtos</p>
+                                        <img src="./Assets/ico-nav-seta.png" alt="Menu de Produtos" class="drop-ico">
+                                    </div>
+                                    
+                                    <div class="dropdown-content">
+                                        <a href="#" class="content-text">Touchies</a>
+                                        <a href="#" class="content-text">CFTV</a>
+                                        <a href="#" class="content-text">Monitoramento 
+                                                de temperatura corporal</a>
+                                        <a href="#" class="content-text">Sistema de detecção 
+                                                de alarme de incêndio</a>
+                                        <a href="#" class="content-text">Reconhecimento facial</a>
+                                        <a href="#" class="content-text">Solução de controle de acesso</a>
+                                    </div>
+                                </a>                                         
+                            </div>
+                        </div>
+                      </div>
+                    </button>                   
+                </div>
+            </section>
+        </header>
+
+        <main class="conteudo__sobre">
+            <div class="container__sobre">
+                <section class="banner__sobre">               
+                    <div class="conteudo__banner___sobre">
+                        <h1 class="titulo__sobre">Sobre nós</h1>
+                        <p class="sub__sobre">Bap  connect building</p>
+                        <article class="descricao__sobre"> 
+                            <p class="descricao__texto">Acreditamos que segurança, conforto e o desempenho eficiente no uso de recursos dos edifícios são essenciais para o desenvolvimento das pessoas e sustentabilidade dos negócios.Acreditamos que segurança, conforto e o
+                            </p>
+                            <p class="descricao__texto">
+                            desempenho eficiente no uso de recursos dos edifícios são essenciais para o desenvolvimento das pessoas e
+                            </p>
+                            <p class="descricao__texto">
+                            sustentabilidade dos negócios.Acreditamos que segurança, conforto e o desempenho eficiente no uso de recursos dos edifícios são essenciais para o desenvolvimento das pessoas e sustentabilidade dos negócios.
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="buttons__sobre">
+                        <a href="/contatoBAP.html" class="botao__contato___sobre">
+                            Fale com a gente
+                        </a>
+
+                        <a href="#" class="botao__servicos___sobre">
+                            Ver os nossos serviços
+                        </a>
+                    </div>
+                </section>
+
+                <section class="banner__imagem">
+                    <img src="./Assets/Rectangle 80.png" class="imagem__item">
+                    <img src="./Assets/Rectangle 81.png" class="imagem__item">
+                </section>    
+                <div class="buttons__sobre__mobile">
+                    <a href="/contatoBAP.html" class="botao__contato___sobre">
+                        Fale com a gente
+                    </a>
+    
+                    <a href="#" class="botao__servicos___sobre">
+                        Ver os nossos serviços
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="rodape">
+            <div class="container__rodape">
+                <div class="redesSociais divs__rodape">
+                    <img src="./Assets/logo-rodape.svg" class="logo__rodape">
+                    <p class="descricao__redes___sociais">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus in</p>
+                    <ul class="redes__logos">
+                        <a class="logos__item">Facebook</a>
+                        <a class="logos__item">Instagram</a>
+                        <a class="logos__item">LinkedIn</a>
+                    </ul>
+                </div>
+    
+                <div class="rodape__itens">
+                    <h5 class="titulo__rodape___itens">Produtos</h5>
+                    <ul class="lista__rodape___itens">
+                        <a class="item__lista___itens">Touchiess</a>
+                        <a class="item__lista___itens">CFTV</a>
+                        <a class="item__lista___itens">Monitoramento de temperatura corporal</a>
+                        <a class="item__lista___itens">Reconhecimento facial</a>
+                        <a class="item__lista___itens">Sistema de detecção de alarme de incêndio</a>
+                        <a class="item__lista___itens">Solução de controle de acesso </a>
+                    </ul>
+                </div>
+    
+                <div class="rodape__itens">
+                    <h5 class="titulo__rodape___itens">Serviços</h5>
+                    <ul class="lista__rodape___itens">
+                        <a class="item__lista___itens">Operação remota de BMS</a>
+                        <a class="item__lista___itens">Segurança eletrônica</a>
+                        <a class="item__lista___itens">Instalação de sistema</a>
+                        <a class="item__lista___itens">Manutenção predial</a>
+                        <a class="item__lista___itens">Manutenção de sistema</a>
+                        
+                </div>
+    
+                <div class="rodape__itens">
+                    <h5 class="titulo__rodape___itens">Suporte</h5>
+                    <ul class="lista__rodape___itens">
+                        <a href="/contatoBAP.html" class="item__lista___itens">Contato</a>
+                    </ul>
+                </div>
+    
+            </div>
+
+            <div class="copiryght">
+                <div class="copiryght__text">
+                    Copyright bap connect building
+                </div>
+
+                <div class="contato__rodape">
+                    <a href="mailto:bapconnectbuilding@gmail.com" class="contato__email">bapconnectbuilding@gmail.com                       
+                    </a>
+                    <a href="tel:+271 386-647-3637" class="contato__telefone">
+                        +271 386-647-3637
+                    </a>
+                </div>
+                
+            </div>    
+        </footer>
+        <script src="JS/index.js" type="module"></script>
+        <script src="Js/hamburguerShow.js"></script>
+    </body>
