@@ -36,7 +36,7 @@
 
         position:absolute;
         top: 2.94rem;
-        right: 2.09rem;
+        right: auto;
         cursor: pointer;
         transition: .4s;
     }
@@ -221,7 +221,7 @@ and (max-device-width: 1024px) {
 
         position:absolute;
         top: 2.94rem;
-        right: 2.07rem;
+        right: auto;
         cursor: pointer;
         transition: .4s;
     }
