@@ -101,7 +101,8 @@ and (max-device-width: 1024px) {
         flex-direction: column;
     }
     .copiryght__text{
-        text-align: center;
+        width: 375px;
+        padding-left: 2rem;
     }
     .contato__telefone{
         margin: 1.25rem 0;

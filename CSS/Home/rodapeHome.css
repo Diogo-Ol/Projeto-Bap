@@ -104,7 +104,8 @@
 .copiryght__text{
     font-family: var(--roboto);
     font-weight: 400;
-    width: 29.875rem;
+    width: auto;
+    text-align: center;
 
     color: #666666;
 }
