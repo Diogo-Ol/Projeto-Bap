@@ -162,3 +162,7 @@
 
     color: #FFFFFF;
 }
+
+.button-contato{
+    visibility: hidden;
+}
