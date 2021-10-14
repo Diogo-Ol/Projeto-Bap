@@ -24,7 +24,7 @@
     font-size: 1.5rem;
     padding-top: 1rem;
 
-    background: url(/Assets/Line\ 2.svg);
+    background: url('../../Assets/Line\ 2.svg');
 
     background-repeat: no-repeat;
 }

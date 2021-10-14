@@ -92,7 +92,7 @@
     justify-content: space-between;
     align-self: center;
 
-    background-image: url(/Assets/Divider.png);
+    background-image: url('../../Assets/Divider.png');
     background-position: center;
     background-repeat:no-repeat;
     background-position-y: top;
@@ -116,7 +116,7 @@
     width: 14.4rem;
 
     color: var(--primary);
-    background-image: url(/Assets/ico-mail.png);
+    background-image: url('../../Assets/ico-mail.png');
     background-repeat: no-repeat;
     background-position-y: center;
     padding-left: 2.5rem;
@@ -130,7 +130,7 @@
     width: 14.4rem;
 
     color: var(--primary);
-    background-image: url(/Assets/ico-tel.png);
+    background-image: url('../../Assets/ico-tel.png');
     background-repeat: no-repeat;
     background-position-y: center;
     padding-left: 2.5rem;
