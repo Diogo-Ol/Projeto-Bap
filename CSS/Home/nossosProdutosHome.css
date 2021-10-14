@@ -155,3 +155,12 @@
 }
 }
 
+@media (min-width:1700px){
+    .container__titulo___nosso-produtos{
+        width: 30vw;
+    }
+
+    .container__carrousel{
+        width: 75rem;
+    }
+}
