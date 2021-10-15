@@ -121,7 +121,6 @@
     background-image: url('../../Assets/seta-direita.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 19px 20.57px;
 
 
 
@@ -131,7 +130,6 @@
 .carrousel__button--anterior:hover{
     background-color: var(--primary);
     background-image: url('../../Assets/seta-esquerda-hover.png');
-    background-size: 19px 20.57px;
 
 
     
