@@ -143,8 +143,6 @@
 .carrousel__button--proximo:hover{
     background-color: var(--primary);
     background-image: url('../../Assets/seta-direita-hover.png');
-    background-size: 19px 20.57px;
-
 
 
     transform: translateX(.5rem);
