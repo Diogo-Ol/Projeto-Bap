@@ -21,7 +21,7 @@
     padding-bottom: 1.3125rem;
     color: #FFFFFF;
 
-    background-image: url(/Assets/Line\ 2.svg);
+    background-image: url('../../Assets/Line\ 2.svg');
     background-repeat: no-repeat;
     background-position-y:bottom;
 }

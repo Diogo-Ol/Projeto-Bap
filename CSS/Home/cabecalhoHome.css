@@ -83,18 +83,20 @@
 .dropdown-content{
     display: none;
     flex-direction: column;
-    display: none;
     position: absolute;
     
     background-color: var(--primary);   
     box-shadow: .5rem 0 .5rem 0 rgba(0,0,0,0.2);
 
-    top:44%;
+    top:42%;
 
     width: 25rem;
     margin-top: 2rem;
     margin-bottom: .2rem;
     padding: 1rem;
+
+    transition: all .1s ease-in-out;
+
 }
 .titulo__produtos__ham{
     font-weight: bold;
@@ -130,7 +132,7 @@
 
 .dropdown:hover .dropdown-content{
     display: flex;
-    transition-delay:.3s;
+    transition: all .1s ease-in-out;
 }
 
 .dropdown:hover .drop-ico{
