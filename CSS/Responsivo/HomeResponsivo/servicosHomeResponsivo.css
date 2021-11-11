@@ -1,6 +1,7 @@
 @media (max-width:768px){
     .servicos{
         height: auto;
+        margin-top: 2rem;
     }
     .carrousel__item___servicos{
         flex-direction: column-reverse;

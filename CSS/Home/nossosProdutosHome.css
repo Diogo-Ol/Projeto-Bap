@@ -10,13 +10,12 @@
 .container__titulo___nosso-produtos{
     width: 15rem;
     margin-right: 5rem;
+    margin-left: 5rem;
 }
 .titulo__produtos{
     font-family: var(--poppins);
     font-weight: 600;
     font-size: 3rem;
-
-    margin: 5rem 0 5rem 5rem;
 
     color: #333333;
 
@@ -24,7 +23,7 @@
 
 
 .container__carrousel{
-    width: 70rem;
+    width: 64.85rem;
 
     overflow: hidden;
     
@@ -35,7 +34,7 @@
     transition: all .5s;
 }
 .carrousel__item___produtos{
-    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .titulo__carrousel___item{
     font-family: var(--poppins);
@@ -67,7 +66,7 @@
 
     margin-top: 6rem;
     width: 70rem;
-    padding-left: 2rem;
+
 
 }
 .button__explorar{
@@ -112,6 +111,8 @@
     background-position: center;
 
     transition: all .4s ease-in-out;
+
+    margin-right: 1.2rem;
 }
 
 .carrousel__button--proximo{

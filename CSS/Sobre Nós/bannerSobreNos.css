@@ -33,12 +33,13 @@
     color: #FFFFFF;
 
     margin-bottom: 3.75rem;
+    margin-top: 1rem;
 }
 
 .descricao__sobre{
     font-family: var(--roboto);
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 150%;
 
     color: #E9E9E9;
@@ -62,7 +63,7 @@
     color: var(--primary);
     border: none;
     
-    font-weight: 600;
+    font-weight: 500;
     font-family: var(--roboto);
     
     
